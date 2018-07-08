@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Benedict Florance</title>
+    <link>http://benedictflorance.me/home/</link>
+    <description>Recent content in Homes on Benedict Florance</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="http://benedictflorance.me/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://benedictflorance.me/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/about/</guid>
+      <description>Biography I am an undergraduate student pursuing Computer Science and Engineering from NIT Trichy. I am keenly focussed on the enticing research areas of Computer Science such as machine learning, deep learning and computer vision. Recently, I worked under Prof C. V. Jawahar at the CVIT lab, IIIT Hyderabad on Indian Flora Project: Social Image Data Based Plant Species Identification and Disease Detection. I am also a recipient of the Indian Academy of Sciences&amp;rsquo; Summer Research Fellowship.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://benedictflorance.me/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>http://benedictflorance.me/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://benedictflorance.me/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://benedictflorance.me/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://benedictflorance.me/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Section</title>
+      <link>http://benedictflorance.me/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://benedictflorance.me/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://benedictflorance.me/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
