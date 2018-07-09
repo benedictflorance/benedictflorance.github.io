@@ -10,5 +10,183 @@
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Breaking down Neural Networks: An intuitive approach to backprop!</title>
+      <link>http://benedictflorance.me/post/backpropagation/</link>
+      <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/post/backpropagation/</guid>
+      <description>
+
+&lt;p&gt;Whether you’re a beginner in machine learning or an expert, you would have had a hard time understanding the concept of backpropagation in neural networks. If you’re a beginner, the first look of the complex steps strung together in the backprop algorithm would’ve been definitely daunting. While a few of us would have spent time in analysing the algorithm and getting the intuition, most of us would have abstracted the learning process. A common and a very sensible question that can arise for people who have worked with deep learning frameworks like Facebook’s Pytorch and Google’s Tensorflow is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Why do we have to spend time in understanding the necessity of backprop if a single line of &lt;code&gt;loss.backward()&lt;/code&gt; in Pytorch or &lt;code&gt;tape.gradient(loss_value, model.variables)&lt;/code&gt; in TensorFlow can do the magic?&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A one-liner. You can’t debug your neural network effectively and won’t be able to figure out where you are going wrong!&lt;/p&gt;
+
+&lt;p&gt;This article aims to explain the intuition behind the backpropagation algorithm in a simple way, that can be understandable even by a machine learning beginner.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-short-introduction-to-neural-networks&#34;&gt;A short introduction to neural networks:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*WNxN2ArLaGt0-Rm3tzWw1g.jpeg&#34; alt=&#34;A neural network with two hidden layers. Source: [www.towardsdatascience.com](http://www.towardsdatascience.com)&#34; /&gt;&lt;em&gt;A neural network with two hidden layers. Source: &lt;a href=&#34;http://www.towardsdatascience.com&#34; target=&#34;_blank&#34;&gt;www.towardsdatascience.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The core idea of neural networks is to compute weighted sums of the values in the input layer and create a mapping between the input and output layer by a series of functions (in general, nonlinear functions).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds complex? Let me break it down. Every neural network has an input layer, a series of hidden layers and an output layer. Let us take the task of classifying our images into four categories ‘cat’, ‘dog’, ‘frog’ and ‘horse’. The values in the &lt;strong&gt;input layer&lt;/strong&gt; represent the pixel values of a given image that we want to classify into four categories. The small circles in each layer are called &lt;strong&gt;neurons&lt;/strong&gt;. The values of the &lt;strong&gt;output layer&lt;/strong&gt; represent the score for each category. We classify the image into the category that gets the highest score. For instance, if the ‘frog’ neuron in the output layer receives the highest value in comparison to the other neurons of the layer, we say the image is a ‘frog’. The other intermediary layers are called &lt;strong&gt;hidden layers.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/0*4Je3OlrLh-1QIv_V.png&#34; alt=&#34;A closer look at a single neuron. Source: Google Images&#34; /&gt;&lt;em&gt;A closer look at a single neuron. Source: Google Images&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Every junction between two layers have a set of parameters called &lt;strong&gt;weights&lt;/strong&gt;. These weights are not random numbers, the weight matrix between different layers can be visualized as a template or a feature that we are looking for in the image to classify it. The values of the next layer are calculated by applying a function called &lt;strong&gt;activation function&lt;/strong&gt; to the values of the previous layer and the weights in between the two layers. Commonly used activation functions are sigmoid, tanh, Rectified Linear Unit (also called ReLU), leaky ReLU and Maxout. The difference between the output that we predict using the network and the actual class of the image determines the loss of the network. Greater the number of images that we classify correctly, lesser the loss. There are several ways of computing the loss of a neural network. One naive approach would be to find the mean squared error i.e, the mean of squares of the difference between the predicted and actual values. Other techniques that are often used to compute loss are softmax(cross-entropy) and support vector machine (hinge) loss. So, the aim of a neural network problem is to learn the best set of weights to give us the desired scores in the output layer. In other words, to minimize the loss function of the network.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-backpropagation&#34;&gt;What is backpropagation?&lt;/h2&gt;
+
+&lt;p&gt;Training a neural network typically happens in two phases.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Forward Pass:&lt;/strong&gt; We compute the outputs of every node in the forward pass and calculate the final loss of the network.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Backward Pass:&lt;/strong&gt; We start at the end of the network, backpropagate or feed the errors back, recursively apply chain rule to compute gradients all the way to the inputs of the network and then update the weights. This method of backpropagating the errors and computing the gradients is called &lt;strong&gt;backpropagation.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is a very popular neural network training algorithm as it is conceptually clear, computationally tractable and produces optimal results in general. To reiterate, the aim of a typical neural network problem is to discover a model that fits our data ‘best’. Ultimately, we want to minimize the cost or loss function by choosing the best set of parameters.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-short-recap-of-derivatives&#34;&gt;A short recap of derivatives:&lt;/h3&gt;
+
+&lt;p&gt;Let us consider the following function.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*haSLzvmimPyGftWBixHxUA.png&#34; alt=&#34;Product of two variables.&#34; /&gt;&lt;em&gt;Product of two variables.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*srZ0Vnma4URroyKbeYAGnA.png&#34; alt=&#34;Partial derivatives of the function w.r.t the inputs.&#34; /&gt;&lt;em&gt;Partial derivatives of the function w.r.t the inputs.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It is simple enough to find the partial derivative with respect to either of the inputs. For example, if&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*f2g7p9B3QAaIo8rO8v265w.png&#34; alt=&#34;Let us take sample values as inputs to the function.&#34; /&gt;&lt;em&gt;Let us take sample values as inputs to the function.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The partial derivative on variable x ( ∂f/ ∂x) and variable y ( ∂f/ ∂y) are 3 and -2 respectively. This gives us an understanding that increasing the variable x by an amount ε would increase the output function by 3ε. Similarly, increasing the variable y by an amount ε would decrease the output function by 2ε. Thus, the derivative of a function on each variable tells us the sensitivity of the function with respect to that variable.&lt;/p&gt;
+
+&lt;p&gt;Drawing a parallel analogy, by computing the gradients of the loss function with respect to the weights and the inputs of the neural network, we can determine the sensitivity of the loss function with respect to these parameters. These gradients are a measure of how well the neural network is performing and how the parameters of the model are affecting the loss function. It also helps us in fine tuning the weights of the network to minimize our loss and find a model that fits our data.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-backpropagate&#34;&gt;How to backpropagate?&lt;/h2&gt;
+
+&lt;p&gt;We’ll be using the following example throughout the rest of the article.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*DQ5xxpPVU44Lqddo8f7Yhw.png&#34; alt=&#34;This example will be used throughout the rest of the article.&#34; /&gt;&lt;em&gt;This example will be used throughout the rest of the article.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a good practice to draw computation graphs and analyse the expressions, albeit easier only for simple expressions. So, let’s draw one. We also introduce intermediary variables like x and y to make our calculations simpler.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*azqHvbrNsZ8AIZ7H75tbIQ.jpeg&#34; alt=&#34;Computational graph for the example f=(a+b)(b+c) with a = -1, b = 3 and c = 4.&#34; /&gt;&lt;em&gt;Computational graph for the example f=(a+b)(b+c) with a = -1, b = 3 and c = 4.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Every node in a computational graph can compute two things — the output of the node and the local gradient of the node without even being aware of the rest of the graph.&lt;/strong&gt; Local gradients of a node are the derivatives of the output of the node with respect to each of the inputs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*7XxBjQzyLCkWKEgJD_w9jQ.png&#34; alt=&#34;Local gradients of the nodes in the computational graph.&#34; /&gt;&lt;em&gt;Local gradients of the nodes in the computational graph.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We have marked the outputs on the graph and have also calculated the local gradients of the nodes. &lt;strong&gt;Backpropagation is a “local” process and can be viewed as a recursive application of the chain rule.&lt;/strong&gt; Now, we want the sensitivity of our output (loss) function w.r.t to the input variables a, b and c of the graph (i.e. ∂f/ ∂a, ∂f/ ∂b and ∂f/ ∂c). We start with the output variable and find the derivative of the output of the graph w.r.t to every variable by recursive chain rule. The derivative of the output variable w.r.t itself is one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2338/1*GEpvvmhoj0yRTi_kpDS6Eg.png&#34; alt=&#34;Backpropagating and finding the gradient of f w.r.t all the variables in the graph by the application of chain rule. Blue elements represent the outputs of the nodes whereas red element represents the gradients that were calculated during backpropagation. (Note that f = (a+b)(b+c), x= a+b and y = b+c)&#34; /&gt;&lt;em&gt;Backpropagating and finding the gradient of f w.r.t all the variables in the graph by the application of chain rule. Blue elements represent the outputs of the nodes whereas red element represents the gradients that were calculated during backpropagation. (Note that f = (a+b)(b+c), x= a+b and y = b+c)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Let us take one node in the graph and get a clear picture.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*mudCF1PDeBlErRNOPXD24Q.jpeg&#34; alt=&#34;A closer look of backpropagation — considering a single node.&#34; /&gt;&lt;em&gt;A closer look of backpropagation - considering a single node.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We computed the outputs and local gradients of every node before we started backpropagating. The graph which was unaware of the existence of other nodes when we calculated the outputs and local gradients, interacts with the other nodes and learns the derivative of its output value on the final output of the graph ( ∂f/ ∂x). Thus, &lt;strong&gt;we find the derivative of the output of the graph w.r.t a variable (&lt;/strong&gt; ∂f/ ∂a&lt;strong&gt;) by multiplying its local gradient (&lt;/strong&gt; ∂x/ ∂a) &lt;strong&gt;with the upstream gradient that we receive from the node’s output value. (&lt;/strong&gt; ∂f/ ∂x)&lt;strong&gt;. This is the essence of backpropagation&lt;/strong&gt;. If we look at variable b, we can use the multivariate chain rule to find the derivative of the output f w.r.t the variable b.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*wT88MRBXEztY5KrRq_PzVg.png&#34; alt=&#34;Gradients add at branches — multivariate chain rule.&#34; /&gt;&lt;em&gt;Gradients add at branches — multivariate chain rule.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We can also interpret this multivariate chain rule by saying “&lt;strong&gt;gradients add at branches&lt;/strong&gt;”. Thus, we have found the sensitivity of variables a, b and c on the output f by computing the derivatives through backpropagation.&lt;/p&gt;
+
+&lt;p&gt;At this point, you might have the following questions.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Why this roundabout method of finding gradients by backpropagation while we can compute the same gradients by differentiating in a simple, forward manner?”&lt;/p&gt;
+
+&lt;p&gt;“Oh, backpropagation is nothing but chain rule! What’s so special in that?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;why-backpropagation&#34;&gt;Why backpropagation?&lt;/h2&gt;
+
+&lt;p&gt;Let us look at two strategies by which we can compute gradients.&lt;/p&gt;
+
+&lt;h3 id=&#34;strategy-1-forward-differentiation&#34;&gt;Strategy 1: Forward differentiation&lt;/h3&gt;
+
+&lt;p&gt;It is the usual way of finding gradients, the way that we all learnt in our high school. Let us consider the same example again. Without loss of generality, we choose variable b and find gradients upwards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2268/1*r5bFLL1rKCrMuZOnZR0lcg.png&#34; alt=&#34;Forward differentiation — the traditional way. (Note that f = (a+b)(b+c), x= a+b and y = b+c)&#34; /&gt;&lt;em&gt;Forward differentiation — the traditional way. (Note that f = (a+b)(b+c), x= a+b and y = b+c)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*wLd-zTw71u7GDnsgjKwKoA.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus, we have computed the derivative of f (our output) w.r.t. variable b (one of the inputs).&lt;/p&gt;
+
+&lt;p&gt;Forward differentiation determines how one of the inputs affect every node in the graph.&lt;/p&gt;
+
+&lt;h2 id=&#34;strategy-2-reverse-differentiation&#34;&gt;Strategy 2: Reverse Differentiation:&lt;/h2&gt;
+
+&lt;p&gt;We already implemented reverse differentiation when we learnt how to do backpropagation. Just to have a recap, let’s look at the graph without any chain-rule steps written on the graph.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2360/1*U3mVDYuvnaLhJzIFw_d5qQ.png&#34; alt=&#34;Backpropagation or reverse differentiation. Refer the diagram under &#39;How to Backpropagate?&#39; for the chain-rule steps.&#34; /&gt;&lt;em&gt;Backpropagation or reverse differentiation. Refer the diagram under &amp;lsquo;How to Backpropagate?&amp;rsquo; for the chain-rule steps.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you notice properly, by doing reverse differentiation (or backpropagation), we have computed the derivative of f (our output or loss function) with respect to every node in the graph. &lt;strong&gt;Yeah, you saw that right, with respect to every single node in the graph!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Forward-mode differentiation gave us the derivative of our output with respect to one of the inputs, but reverse-mode differentiation gives us all of them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As we have only three variables as input to the graph, we can see a thrice speedup by performing backpropagation (reverse differentiation) instead of forward differentiation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Why thrice speedup?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*9tfrBe7pAtqEiVwz5w7j3A.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We found only the derivative of f w.r.t b in forward differentiation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*Ua0MG2skPgLovioPghKm5g.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Whereas, we found the derivative of f w.r.t all the three input variables, by backprop in one fell swoop.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;so-is-that-all&#34;&gt;So, is that all?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/600/0*rBQI7uBhBKE8KT-X.png&#34; alt=&#34;Gradient Descent. J(w) represents the loss and w represents the weight. Source: Google Images&#34; /&gt;&lt;em&gt;Gradient Descent. J(w) represents the loss and w represents the weight. Source: Google Images&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;To reiterate, loss function quantifies the quality of our weights. Having calculated the gradients of our loss function with respect to all the parameters of the neural networks, its time to update the model parameters using these gradients to make our model more fit to the data. A commonly used technique to optimize weight parameters is &lt;strong&gt;gradient descent&lt;/strong&gt;. In gradient descent, we take small baby steps in the direction of the minima to get optimized weight parameters. The size of the steps that we take to reach the optimum value is determined by a parameter called &lt;strong&gt;learning rate.&lt;/strong&gt; Other commonly used techniques for weight updation are AdaGrad, RMSProp and Adam optimization. Thus, by making use of the gradients computed through an efficient backprop, we are able to find the best set of weights that minimizes our loss function. We do this by backpropagating the neural network multiple times until we reach a steady loss.&lt;/p&gt;
+
+&lt;h2 id=&#34;yo-backprop-is-powerful&#34;&gt;Yo, backprop is powerful!&lt;/h2&gt;
+
+&lt;p&gt;Convolutional Neural Networks (CNNs) are a class of deep neural networks (deep, implying large number of hidden layers) that are primarily used for visual recognition — classifying images. ImageNet, the largest visual database consists of over 14 million images belonging to 20 thousand categories. It is a common practice to evaluate the performance of a CNN by training and testing it on the ImageNet database due to the large number of labeled images that it has. The current standard CNN architecture that performs the best on ImageNet is ResNet-152, which has 152 layers and a parameter count close to a billion! By performing backpropagation, we can get the gradients of the loss function with respect to all the inputs and weights of the network. Think of the massive speedup of billion times when we choose backpropagation over forward differentiation. Sounds awesome, doesn’t it?&lt;/p&gt;
+
+&lt;p&gt;Hope you understood the actual intuition behind backpropagation and why it is preferred. Cheers! :)&lt;/p&gt;
+
+&lt;h3 id=&#34;references&#34;&gt;References:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cs231n.github.io/optimization-2/&#34; target=&#34;_blank&#34;&gt;http://cs231n.github.io/optimization-2/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=d14TUNcbn1k&#34; target=&#34;_blank&#34;&gt;https://www.youtube.com/watch?v=d14TUNcbn1k&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://colah.github.io/posts/2015-08-Backprop/&#34; target=&#34;_blank&#34;&gt;http://colah.github.io/posts/2015-08-Backprop/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b&#34; target=&#34;_blank&#34;&gt;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;more-reading&#34;&gt;More reading:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://neuralnetworksanddeeplearning.com/chap2.html&#34; target=&#34;_blank&#34;&gt;http://neuralnetworksanddeeplearning.com/chap2.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cs231n.stanford.edu/handouts/derivatives.pdf&#34; target=&#34;_blank&#34;&gt;http://cs231n.stanford.edu/handouts/derivatives.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;P. S. Used LaTeX and &lt;a href=&#34;http://www.draw.io&#34; target=&#34;_blank&#34;&gt;www.draw.io&lt;/a&gt; for the network diagrams.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

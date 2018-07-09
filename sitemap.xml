@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://benedictflorance.me/post/backpropagation/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://benedictflorance.me/post/</loc>
       <lastmod>2017-01-01T00:00:00+05:30</lastmod>
     </url>
@@ -32,6 +41,26 @@
     
     <url>
     
+      <loc>http://benedictflorance.me/tags/ai/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/backpropagation/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://benedictflorance.me/</loc>
       <lastmod>2016-04-20T00:00:00+05:30</lastmod>
       <priority>0</priority>
@@ -51,6 +80,36 @@
     
     <url>
     
+      <loc>http://benedictflorance.me/tags/deep_learning/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/machine_learning/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/neural_networks/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://benedictflorance.me/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -61,6 +120,7 @@
     <url>
     
       <loc>http://benedictflorance.me/tags/</loc>
+      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
       <priority>0</priority>
     </url>
     
