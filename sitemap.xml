@@ -5,6 +5,42 @@
     
     <url>
     
+      <loc>http://benedictflorance.me/project/indianflora/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/project/mdecoder/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/project/icf-chennai/</loc>
+      <lastmod>2018-07-10T01:04:55+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/project/smart-healthcare/</loc>
+      <lastmod>2018-07-10T00:58:38+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://benedictflorance.me/post/backpropagation/</loc>
       <lastmod>2018-06-16T23:22:47+05:30</lastmod>
     </url>
@@ -41,8 +77,38 @@
     
     <url>
     
+      <loc>http://benedictflorance.me/tags/aadhaar/</loc>
+      <lastmod>2018-07-10T00:58:38+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://benedictflorance.me/tags/ai/</loc>
       <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/android-app/</loc>
+      <lastmod>2018-07-10T01:04:55+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/api/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -80,8 +146,8 @@
     
     <url>
     
-      <loc>http://benedictflorance.me/tags/deep_learning/</loc>
-      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <loc>http://benedictflorance.me/tags/collaborative/</loc>
+      <lastmod>2018-07-10T00:58:38+05:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -90,8 +156,8 @@
     
     <url>
     
-      <loc>http://benedictflorance.me/tags/machine_learning/</loc>
-      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <loc>http://benedictflorance.me/tags/computer-vision/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -100,8 +166,148 @@
     
     <url>
     
-      <loc>http://benedictflorance.me/tags/neural_networks/</loc>
-      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <loc>http://benedictflorance.me/tags/contest/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/deep-learning/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/disease-detection/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/hackathon/</loc>
+      <lastmod>2018-07-10T00:58:38+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/healthcare/</loc>
+      <lastmod>2018-07-10T00:58:38+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/icf/</loc>
+      <lastmod>2018-07-10T01:04:55+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/indian-railways/</loc>
+      <lastmod>2018-07-10T01:04:55+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/internship/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/machine-learning/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/mathematics/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/mdecoder/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/neural-networks/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/plant-identification/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/pragyan/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/project/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -119,8 +325,28 @@
     
     <url>
     
+      <loc>http://benedictflorance.me/tags/research/</loc>
+      <lastmod>2018-07-10T01:27:06+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://benedictflorance.me/tags/</loc>
-      <lastmod>2018-06-16T23:22:47+05:30</lastmod>
+      <lastmod>2018-07-10T00:58:38+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://benedictflorance.me/tags/website/</loc>
+      <lastmod>2018-07-10T01:17:17+05:30</lastmod>
       <priority>0</priority>
     </url>
     

@@ -7,17 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
-    <lastBuildDate>Sat, 16 Jun 2018 23:22:47 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 00:58:38 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>AI</title>
+      <title>Aadhaar</title>
+      <link>http://benedictflorance.me/tags/aadhaar/</link>
+      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/aadhaar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ai</title>
       <link>http://benedictflorance.me/tags/ai/</link>
       <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
       
       <guid>http://benedictflorance.me/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android-app</title>
+      <link>http://benedictflorance.me/tags/android-app/</link>
+      <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/android-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>http://benedictflorance.me/tags/api/</link>
+      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/api/</guid>
       <description></description>
     </item>
     
@@ -31,29 +58,164 @@
     </item>
     
     <item>
-      <title>Deep_learning</title>
-      <link>http://benedictflorance.me/tags/deep_learning/</link>
-      <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
+      <title>Collaborative</title>
+      <link>http://benedictflorance.me/tags/collaborative/</link>
+      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/tags/deep_learning/</guid>
+      <guid>http://benedictflorance.me/tags/collaborative/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Machine_learning</title>
-      <link>http://benedictflorance.me/tags/machine_learning/</link>
-      <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
+      <title>Computer-vision</title>
+      <link>http://benedictflorance.me/tags/computer-vision/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/tags/machine_learning/</guid>
+      <guid>http://benedictflorance.me/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Neural_networks</title>
-      <link>http://benedictflorance.me/tags/neural_networks/</link>
-      <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
+      <title>Contest</title>
+      <link>http://benedictflorance.me/tags/contest/</link>
+      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/tags/neural_networks/</guid>
+      <guid>http://benedictflorance.me/tags/contest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep-learning</title>
+      <link>http://benedictflorance.me/tags/deep-learning/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disease-detection</title>
+      <link>http://benedictflorance.me/tags/disease-detection/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/disease-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hackathon</title>
+      <link>http://benedictflorance.me/tags/hackathon/</link>
+      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Healthcare</title>
+      <link>http://benedictflorance.me/tags/healthcare/</link>
+      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icf</title>
+      <link>http://benedictflorance.me/tags/icf/</link>
+      <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/icf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indian-railways</title>
+      <link>http://benedictflorance.me/tags/indian-railways/</link>
+      <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/indian-railways/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internship</title>
+      <link>http://benedictflorance.me/tags/internship/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/internship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine-learning</title>
+      <link>http://benedictflorance.me/tags/machine-learning/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>http://benedictflorance.me/tags/mathematics/</link>
+      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mdecoder</title>
+      <link>http://benedictflorance.me/tags/mdecoder/</link>
+      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/mdecoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural-networks</title>
+      <link>http://benedictflorance.me/tags/neural-networks/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plant-identification</title>
+      <link>http://benedictflorance.me/tags/plant-identification/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/plant-identification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pragyan</title>
+      <link>http://benedictflorance.me/tags/pragyan/</link>
+      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/pragyan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://benedictflorance.me/tags/research/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>http://benedictflorance.me/tags/website/</link>
+      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/tags/website/</guid>
       <description></description>
     </item>
     

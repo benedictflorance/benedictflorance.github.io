@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disease-detection on Benedict Florance</title>
+    <link>http://benedictflorance.me/tags/disease-detection/</link>
+    <description>Recent content in Disease-detection on Benedict Florance</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 01:27:06 +0530</lastBuildDate>
+    
+	<atom:link href="http://benedictflorance.me/tags/disease-detection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Indian Flora Project</title>
+      <link>http://benedictflorance.me/project/indianflora/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/project/indianflora/</guid>
+      <description>The full project report can be found here. Employed Convolutional Neural Network model (ResNet18) by iterating through several different models trained from-the-scratch, fine-tuned on ImageNet, PlantCLEF Encyclopedia of Life, PlantCLEF noisy web datasets on a manually collected, robust dataset of 100 Indian plant species. (using PyTorch) Experimental observations show efficient computation time and high top-5 precision of 99.85% compared to the low performance of state-of-the-art approaches that focus on hand-engineered features.</description>
+    </item>
+    
+  </channel>
+</rss>

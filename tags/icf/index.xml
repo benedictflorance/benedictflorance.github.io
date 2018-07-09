@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icf on Benedict Florance</title>
+    <link>http://benedictflorance.me/tags/icf/</link>
+    <description>Recent content in Icf on Benedict Florance</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 01:04:55 +0530</lastBuildDate>
+    
+	<atom:link href="http://benedictflorance.me/tags/icf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Indian Railways EMU Production Application</title>
+      <link>http://benedictflorance.me/project/icf-chennai/</link>
+      <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
+      
+      <guid>http://benedictflorance.me/project/icf-chennai/</guid>
+      <description>The application can be found here. Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative. Wrote API’s in Laravel framework to handle authorization across Web and Android clients. The code was reviewed and pushed to production. The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.</description>
+    </item>
+    
+  </channel>
+</rss>
