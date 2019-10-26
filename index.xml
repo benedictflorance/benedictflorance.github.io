@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benedict Florance on Benedict Florance</title>
-    <link>http://benedictflorance.me/</link>
+    <link>http://benedictflorance.github.io/</link>
     <description>Recent content in Benedict Florance on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Indian Flora Project</title>
-      <link>http://benedictflorance.me/project/indianflora/</link>
+      <link>http://benedictflorance.github.io/project/indianflora/</link>
       <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/indianflora/</guid>
+      <guid>http://benedictflorance.github.io/project/indianflora/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../img/indianflora.jpg&#34; alt=&#34;Plant Collage&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -34,10 +34,10 @@ users can add new observations to the catalogue and query for species identifica
     
     <item>
       <title>MDecoder</title>
-      <link>http://benedictflorance.me/project/mdecoder/</link>
+      <link>http://benedictflorance.github.io/project/mdecoder/</link>
       <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/mdecoder/</guid>
+      <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../img/mdecoder.jpeg&#34; alt=&#34;MDecoder&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -55,10 +55,10 @@ backend service and hosted in Docker-based environment.&lt;/li&gt;
     
     <item>
       <title>Indian Railways EMU Production Application</title>
-      <link>http://benedictflorance.me/project/icf-chennai/</link>
+      <link>http://benedictflorance.github.io/project/icf-chennai/</link>
       <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/icf-chennai/</guid>
+      <guid>http://benedictflorance.github.io/project/icf-chennai/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../img/icf_emu.png&#34; alt=&#34;ICF App&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -73,10 +73,10 @@ backend service and hosted in Docker-based environment.&lt;/li&gt;
     
     <item>
       <title>Smart Healthcare System</title>
-      <link>http://benedictflorance.me/project/smart-healthcare/</link>
+      <link>http://benedictflorance.github.io/project/smart-healthcare/</link>
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/smart-healthcare/</guid>
+      <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../img/hackathon.png&#34; alt=&#34;Plant Collage&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -104,10 +104,10 @@ action like medicines and treatment.&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>Breaking down Neural Networks: An intuitive approach to backprop!</title>
-      <link>http://benedictflorance.me/post/backpropagation/</link>
+      <link>http://benedictflorance.github.io/post/backpropagation/</link>
       <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/post/backpropagation/</guid>
+      <guid>http://benedictflorance.github.io/post/backpropagation/</guid>
       <description>
 
 &lt;p&gt;Whether you’re a beginner in machine learning or an expert, you would have had a hard time understanding the concept of backpropagation in neural networks. If you’re a beginner, the first look of the complex steps strung together in the backprop algorithm would’ve been definitely daunting. While a few of us would have spent time in analysing the algorithm and getting the intuition, most of us would have abstracted the learning process. A common and a very sensible question that can arise for people who have worked with deep learning frameworks like Facebook’s Pytorch and Google’s Tensorflow is:&lt;/p&gt;

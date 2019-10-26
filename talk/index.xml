@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Benedict Florance</title>
-    <link>http://benedictflorance.me/talk/</link>
+    <link>http://benedictflorance.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="http://benedictflorance.me/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benedictflorance.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

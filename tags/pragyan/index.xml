@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragyan on Benedict Florance</title>
-    <link>http://benedictflorance.me/tags/pragyan/</link>
+    <link>http://benedictflorance.github.io/tags/pragyan/</link>
     <description>Recent content in Pragyan on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
     <lastBuildDate>Tue, 10 Jul 2018 01:17:17 +0530</lastBuildDate>
     
-	<atom:link href="http://benedictflorance.me/tags/pragyan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benedictflorance.github.io/tags/pragyan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MDecoder</title>
-      <link>http://benedictflorance.me/project/mdecoder/</link>
+      <link>http://benedictflorance.github.io/project/mdecoder/</link>
       <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/mdecoder/</guid>
+      <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
       <description>Details regarding the contest can be found here. Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths. Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment. Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.</description>
     </item>
     
     <item>
       <title>Smart Healthcare System</title>
-      <link>http://benedictflorance.me/project/smart-healthcare/</link>
+      <link>http://benedictflorance.github.io/project/smart-healthcare/</link>
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/smart-healthcare/</guid>
+      <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
       <description>A collaborative pipeline between doctors and patients.
  Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.
  A web-portal was developed for the registered practitioners to view the health record of their trusted patients, add checkup details, prescribed medicines and other important scan documents.

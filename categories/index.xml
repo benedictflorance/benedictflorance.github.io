@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Benedict Florance</title>
-    <link>http://benedictflorance.me/categories/</link>
+    <link>http://benedictflorance.github.io/categories/</link>
     <description>Recent content in Categories on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
     
-	<atom:link href="http://benedictflorance.me/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benedictflorance.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

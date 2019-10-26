@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Benedict Florance</title>
-    <link>http://benedictflorance.me/home/</link>
+    <link>http://benedictflorance.github.io/home/</link>
     <description>Recent content in Homes on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="http://benedictflorance.me/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benedictflorance.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://benedictflorance.me/home/about/</link>
+      <link>http://benedictflorance.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/home/about/</guid>
+      <guid>http://benedictflorance.github.io/home/about/</guid>
       <description>Biography I am an undergraduate student pursuing Computer Science and Engineering from NIT Trichy. I am keenly focussed on the enticing research areas of Computer Science such as machine learning, deep learning and computer vision. I am currently working on &amp;ldquo;Unsupervised Domain Adaptation for Object Detection&amp;rdquo; under Prof. Dr. Eric Granger in the LIVIA lab, ETS Montreal, Canada. In 2018, I worked under Prof C. V. Jawahar at the CVIT lab, IIIT Hyderabad on Indian Flora Project: Social Image Data Based Plant Species Identification and Disease Detection.</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>http://benedictflorance.me/home/posts/</link>
+      <link>http://benedictflorance.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/home/posts/</guid>
+      <guid>http://benedictflorance.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://benedictflorance.me/home/projects/</link>
+      <link>http://benedictflorance.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/home/projects/</guid>
+      <guid>http://benedictflorance.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://benedictflorance.me/home/cv/</link>
+      <link>http://benedictflorance.github.io/home/cv/</link>
       <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/home/cv/</guid>
+      <guid>http://benedictflorance.github.io/home/cv/</guid>
       <description>View Curriculum Vitae</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://benedictflorance.me/home/contact/</link>
+      <link>http://benedictflorance.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/home/contact/</guid>
+      <guid>http://benedictflorance.github.io/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>http://benedictflorance.me/home/tags/</link>
+      <link>http://benedictflorance.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/home/tags/</guid>
+      <guid>http://benedictflorance.github.io/home/tags/</guid>
       <description></description>
     </item>
     

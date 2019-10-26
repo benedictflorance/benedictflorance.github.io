@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mathematics on Benedict Florance</title>
-    <link>http://benedictflorance.me/tags/mathematics/</link>
+    <link>http://benedictflorance.github.io/tags/mathematics/</link>
     <description>Recent content in Mathematics on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
     <lastBuildDate>Tue, 10 Jul 2018 01:17:17 +0530</lastBuildDate>
     
-	<atom:link href="http://benedictflorance.me/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benedictflorance.github.io/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MDecoder</title>
-      <link>http://benedictflorance.me/project/mdecoder/</link>
+      <link>http://benedictflorance.github.io/project/mdecoder/</link>
       <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/project/mdecoder/</guid>
+      <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
       <description>Details regarding the contest can be found here. Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths. Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment. Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.</description>
     </item>
     

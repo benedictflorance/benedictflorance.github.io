@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on Benedict Florance</title>
-    <link>http://benedictflorance.me/tags/ai/</link>
+    <link>http://benedictflorance.github.io/tags/ai/</link>
     <description>Recent content in Ai on Benedict Florance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
     <lastBuildDate>Sat, 16 Jun 2018 23:22:47 +0530</lastBuildDate>
     
-	<atom:link href="http://benedictflorance.me/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://benedictflorance.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Breaking down Neural Networks: An intuitive approach to backprop!</title>
-      <link>http://benedictflorance.me/post/backpropagation/</link>
+      <link>http://benedictflorance.github.io/post/backpropagation/</link>
       <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
       
-      <guid>http://benedictflorance.me/post/backpropagation/</guid>
+      <guid>http://benedictflorance.github.io/post/backpropagation/</guid>
       <description>Whether you’re a beginner in machine learning or an expert, you would have had a hard time understanding the concept of backpropagation in neural networks. If you’re a beginner, the first look of the complex steps strung together in the backprop algorithm would’ve been definitely daunting. While a few of us would have spent time in analysing the algorithm and getting the intuition, most of us would have abstracted the learning process.</description>
     </item>
     
