@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.me/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,16 +15,16 @@
     <item>
       <title></title>
       <link>http://benedictflorance.me/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>http://benedictflorance.me/home/about/</guid>
-      <description>Biography I am an undergraduate student pursuing Computer Science and Engineering from NIT Trichy. I am keenly focussed on the enticing research areas of Computer Science such as machine learning, deep learning and computer vision. I am currently working on &amp;ldquo;Domain Adaptation for Object Detection&amp;rdquo; under Prof. Dr. Eric Granger in the LIVIA lab, ETS Montreal, Canada. In 2018, I worked under Prof C. V. Jawahar at the CVIT lab, IIIT Hyderabad on Indian Flora Project: Social Image Data Based Plant Species Identification and Disease Detection.</description>
+      <description>Biography I am an undergraduate student pursuing Computer Science and Engineering from NIT Trichy. I am keenly focussed on the enticing research areas of Computer Science such as machine learning, deep learning and computer vision. I am currently working on &amp;ldquo;Unsupervised Domain Adaptation for Object Detection&amp;rdquo; under Prof. Dr. Eric Granger in the LIVIA lab, ETS Montreal, Canada. In 2018, I worked under Prof C. V. Jawahar at the CVIT lab, IIIT Hyderabad on Indian Flora Project: Social Image Data Based Plant Species Identification and Disease Detection.</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
       <link>http://benedictflorance.me/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>http://benedictflorance.me/home/posts/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Projects</title>
       <link>http://benedictflorance.me/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>http://benedictflorance.me/home/projects/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Contact</title>
       <link>http://benedictflorance.me/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>http://benedictflorance.me/home/contact/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Tags</title>
       <link>http://benedictflorance.me/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0530</pubDate>
       
       <guid>http://benedictflorance.me/home/tags/</guid>
       <description></description>
