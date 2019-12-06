@@ -13,12 +13,15 @@
     
     
     <item>
-      <title>MDecoder</title>
+      <title>M-Decoder</title>
       <link>http://benedictflorance.github.io/project/mdecoder/</link>
       <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
-      <description>Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths. Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment. Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation. The contest was held as a part of Pragyan, the technical festival of NIT Trichy.</description>
+      <description>Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths.
+ Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment.
+ Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.
+ The contest was held as a part of Pragyan, the technical festival of NIT Trichy and it witnessed over 1000+ contestants and 15,000+ submissions.</description>
     </item>
     
     <item>
@@ -27,7 +30,10 @@
       <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/icf-chennai/</guid>
-      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative. Wrote API’s in Laravel framework to handle authorization across Web and Android clients. The code was reviewed and pushed to production. The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.</description>
+      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative.
+ Wrote API’s in Laravel framework to handle authorization across Web and Android clients.
+ The code was reviewed and pushed to production.
+ The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.</description>
     </item>
     
     <item>
@@ -36,7 +42,7 @@
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
-      <description>Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.
+      <description>* Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.
  A web-portal was developed for the registered practitioners to view the health record of their trusted patients, add checkup details, prescribed medicines and other important documents. Wrote APIs for the Android application where the features were deployed.
  The system acts as a collaborative pipeline between doctors and patients and was made foolproof with the help of Aadhaar (National Identity of India) authentication.</description>
     </item>

@@ -16,11 +16,13 @@
       <pubDate>Fri, 06 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/domain-adaptation/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Recipient of the &lt;strong&gt;Mitacs Globalink Research Internship&lt;/strong&gt; to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of &lt;strong&gt;Prof. Eric Granger&lt;/strong&gt; at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), &lt;strong&gt;ETS Montreal, Canada&lt;/strong&gt;.&lt;/li&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;./../../img/cityscape.jpg&#34; alt=&#34;CSK&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Recipient of the &lt;strong&gt;Mitacs Globalink Research Internship&lt;/strong&gt; to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of &lt;strong&gt;Prof. Eric Granger&lt;/strong&gt; at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), &lt;strong&gt;ETS Montreal, Canada&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Working on an unsupervised, still-image to videos domain adaptation by leveraging the temporal coherence
-of the videos from the target domain with the help of a tracker&lt;/p&gt;&lt;/li&gt;
+of the videos from the target domain with the help of a tracker (ongoing)&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Analyzed the distribution gap and performed studies on local features to show the vulnerabilities of the
 existing image-to-image adaptation approaches that under-perform on face-detection datasets like SCUT-A,
@@ -37,7 +39,9 @@ SCUT-B and Widerface but show remarkable results on datasets like Cityscape and 
       <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/cricket/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;./../../img/csk.jpeg&#34; alt=&#34;CSK&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Employed video frame segmentation and replay detection on a newly constructed dataset of IPL cricket videos. Working on a video classification network for events like boundaries, sixes, wickets and milestones&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain&lt;/p&gt;&lt;/li&gt;
@@ -53,30 +57,42 @@ SCUT-B and Widerface but show remarkable results on datasets like Cityscape and 
       <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/indianflora/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Awarded the prestigious &lt;strong&gt;Indian Academy of Sciences’ Summer Research Fellowship (SRFP)&lt;/strong&gt; to work on &amp;ldquo;Indian Flora Project&amp;rdquo;, a plant species identification and disease detection system under the supervision of &lt;strong&gt;Prof. Dr. C. V. Jawahar&lt;/strong&gt; at Centre for Visual Information Technology (CVIT), &lt;strong&gt;IIIT - Hyderabad&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.08 and 96.90&lt;/li&gt;
-&lt;li&gt;Deployed auto-segmenter, auto-recommender systems and a collaborative web-portal using Angular and NodeJS and an Android app where users can add new observations and query for species identification&lt;/li&gt;
-&lt;li&gt;The research work resulted in a publication titled &amp;ldquo;Indian Plant Recognition in the Wild&amp;rdquo; at the &lt;strong&gt;Seventh National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)&lt;/strong&gt;. &lt;a href=&#34;http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2019/Recognition_Wild_ncvpripg19.pdf&#34; target=&#34;_blank&#34;&gt;(Link)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The research was supported by the Indian Academy of Sciences’ Summer Research Fellowship.&lt;/em&gt;&lt;/li&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;./../../img/indianflora.jpg&#34; alt=&#34;IndianFloraProject&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Awarded the prestigious &lt;strong&gt;Indian Academy of Sciences’ Summer Research Fellowship (SRFP)&lt;/strong&gt; to work on &amp;ldquo;Indian Flora Project&amp;rdquo;, a plant species identification and disease detection system under the supervision of &lt;strong&gt;Prof. Dr. C. V. Jawahar&lt;/strong&gt; at Centre for Visual Information Technology (CVIT), &lt;strong&gt;IIIT - Hyderabad&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.08 and 96.90&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deployed auto-segmenter, auto-recommender systems and a collaborative web-portal using Angular and NodeJS and an Android app where users can add new observations and query for species identification&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The research work resulted in a publication titled &lt;strong&gt;&amp;ldquo;Indian Plant Recognition in the Wild&amp;rdquo;&lt;/strong&gt; at the &lt;strong&gt;Seventh National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)&lt;/strong&gt;. &lt;a href=&#34;http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2019/Recognition_Wild_ncvpripg19.pdf&#34; target=&#34;_blank&#34;&gt;(Link)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The research was supported by the Indian Academy of Sciences’ Summer Research Fellowship.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>MDecoder</title>
+      <title>M-Decoder</title>
       <link>http://benedictflorance.github.io/project/mdecoder/</link>
       <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths.&lt;/li&gt;
-&lt;li&gt;Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment.&lt;/li&gt;
-&lt;li&gt;Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.&lt;/li&gt;
-&lt;li&gt;The contest was held as a part of &lt;a href=&#34;https://www.pragyan.org&#34; target=&#34;_blank&#34;&gt;Pragyan, the technical festival of NIT Trichy&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The contest witnessed over 1000+ contestants and 15,000+ submissions.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contest Link:&lt;/strong&gt; &lt;a href=&#34;https://www.pragyan.org/18/home/events/grey_cells/mdecoder/&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Github Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/benedictflorance/mdecoder2019&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/li&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;./../../img/mdecoder.jpeg&#34; alt=&#34;Mdecoder&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The contest was held as a part of &lt;a href=&#34;https://www.pragyan.org&#34; target=&#34;_blank&#34;&gt;Pragyan, the technical festival of NIT Trichy&lt;/a&gt; and it witnessed over 1000+ contestants and 15,000+ submissions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Contest Link:&lt;/strong&gt; &lt;a href=&#34;https://www.pragyan.org/18/home/events/grey_cells/mdecoder/&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Github Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/benedictflorance/mdecoder2019&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -87,13 +103,20 @@ SCUT-B and Widerface but show remarkable results on datasets like Cityscape and 
       <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/icf-chennai/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative.&lt;/li&gt;
-&lt;li&gt;Wrote API’s in Laravel framework to handle authorization across Web and Android clients.&lt;/li&gt;
-&lt;li&gt;The code was reviewed and pushed to production.&lt;/li&gt;
-&lt;li&gt;The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Application Link:&lt;/strong&gt; &lt;a href=&#34;https://play.google.com/store/apps/details?id=icf.gov.in.iricf&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Github Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/benedictflorance/icf-chennai&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/li&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;./../../img/icf_emu.png&#34; alt=&#34;ICF&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Wrote API’s in Laravel framework to handle authorization across Web and Android clients.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The code was reviewed and pushed to production.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Application Link:&lt;/strong&gt; &lt;a href=&#34;https://play.google.com/store/apps/details?id=icf.gov.in.iricf&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Github Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/benedictflorance/icf-chennai&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -104,9 +127,10 @@ SCUT-B and Widerface but show remarkable results on datasets like Cityscape and 
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.&lt;/p&gt;&lt;/li&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;./../../img/hackathon.png&#34; alt=&#34;Hackathon&#34; /&gt;
+* Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.&lt;/p&gt;
 
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A web-portal was developed for the registered practitioners to view the health record of their trusted patients, add checkup details, prescribed medicines and other important documents. Wrote APIs for the Android application where the features were deployed.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;The system acts as a collaborative pipeline between doctors and patients and was made foolproof with the help of Aadhaar (National Identity of India) authentication.&lt;/p&gt;&lt;/li&gt;
@@ -115,9 +139,9 @@ SCUT-B and Widerface but show remarkable results on datasets like Cityscape and 
 
 &lt;li&gt;&lt;p&gt;Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and treatment.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Github Link&lt;/strong&gt;: &lt;a href=&#34;https://github.com/benedictflorance/smart-healthcare-system&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This project received a &lt;strong&gt;Special Mention&lt;/strong&gt; at the Pragyan Hackathon conducted at SAP Labs, Bangalore.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;*This project received a &lt;strong&gt;Special Mention&lt;/strong&gt; at the Pragyan Hackathon conducted at SAP Labs, Bangalore.*&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Github Link&lt;/strong&gt;: &lt;a href=&#34;https://github.com/benedictflorance/smart-healthcare-system&#34; target=&#34;_blank&#34;&gt;Click Here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
