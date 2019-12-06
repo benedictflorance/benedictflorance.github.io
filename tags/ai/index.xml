@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ai on Benedict Florance</title>
+    <title>Ai on Benedict Florance Arockiaraj</title>
     <link>http://benedictflorance.github.io/tags/ai/</link>
-    <description>Recent content in Ai on Benedict Florance</description>
+    <description>Recent content in Ai on Benedict Florance Arockiaraj</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018  · Benedict Florance</copyright>
-    <lastBuildDate>Sat, 16 Jun 2018 23:22:47 +0530</lastBuildDate>
+    <copyright>&amp;copy; 2018  · Benedict Florance Arockiaraj</copyright>
+    <lastBuildDate>Fri, 06 Dec 2019 00:58:38 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unsupervised Deep Domain Adaption for Object Detection</title>
+      <link>http://benedictflorance.github.io/project/domain-adaptation/</link>
+      <pubDate>Fri, 06 Dec 2019 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/domain-adaptation/</guid>
+      <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada. Working on an unsupervised, still-image to videos domain adaptation by leveraging the temporal coherence of the videos from the target domain with the help of a tracker
+ Analyzed the distribution gap and performed studies on local features to show the vulnerabilities of the existing image-to-image adaptation approaches that under-perform on face-detection datasets like SCUT-A, SCUT-B and Widerface but show remarkable results on datasets like Cityscape and SIM10k</description>
+    </item>
+    
+    <item>
+      <title>Highlights Generation and Player Analysis for Broadcast Cricket Videos</title>
+      <link>http://benedictflorance.github.io/project/cricket/</link>
+      <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/cricket/</guid>
+      <description> Employed video frame segmentation and replay detection on a newly constructed dataset of IPL cricket videos. Working on a video classification network for events like boundaries, sixes, wickets and milestones
+ Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain
+ Dataset Link: Click Here
+  </description>
+    </item>
+    
+    <item>
+      <title>Indian Flora Project</title>
+      <link>http://benedictflorance.github.io/project/indianflora/</link>
+      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/indianflora/</guid>
+      <description>Awarded the prestigious Indian Academy of Sciences’ Summer Research Fellowship (SRFP) to work on &amp;ldquo;Indian Flora Project&amp;rdquo;, a plant species identification and disease detection system under the supervision of Prof. Dr. C. V. Jawahar at Centre for Visual Information Technology (CVIT), IIIT - Hyderabad. Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.</description>
+    </item>
+    
+    <item>
+      <title>Smart Healthcare System</title>
+      <link>http://benedictflorance.github.io/project/smart-healthcare/</link>
+      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
+      <description>Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.
+ A web-portal was developed for the registered practitioners to view the health record of their trusted patients, add checkup details, prescribed medicines and other important documents. Wrote APIs for the Android application where the features were deployed.
+ The system acts as a collaborative pipeline between doctors and patients and was made foolproof with the help of Aadhaar (National Identity of India) authentication.</description>
+    </item>
     
     <item>
       <title>Breaking down Neural Networks: An intuitive approach to backprop!</title>
