@@ -19,7 +19,7 @@
       
       <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
       <description>Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths.
- Built the web application using ReactJS library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment.
+ Built the web application using Angular library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment.
  Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.
  The contest was held as a part of Pragyan, the technical festival of NIT Trichy and it witnessed over 1000+ contestants and 15,000+ submissions.</description>
     </item>
@@ -42,9 +42,9 @@
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
-      <description>* Android application was developed for the patients to view their medical health record, add trusted doctors and digitize the medical checkup they undertake with their trusted doctors.
- A web-portal was developed for the registered practitioners to view the health record of their trusted patients, add checkup details, prescribed medicines and other important documents. Wrote APIs for the Android application where the features were deployed.
- The system acts as a collaborative pipeline between doctors and patients and was made foolproof with the help of Aadhaar (National Identity of India) authentication.</description>
+      <description>* Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model.
+ Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed.
+ This project received a Special Mention at the Pragyan Hackathon conducted at SAP Labs, Bangalore.</description>
     </item>
     
   </channel>

@@ -19,17 +19,16 @@
       
       <guid>http://benedictflorance.github.io/project/domain-adaptation/</guid>
       <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada.
- Working on an unsupervised, still-image to videos domain adaptation by leveraging the temporal coherence of the videos from the target domain with the help of a tracker (ongoing)
- Analyzed the distribution gap and performed studies on local features to show the vulnerabilities of the existing image-to-image adaptation approaches that under-perform on face-detection datasets like SCUT-A, SCUT-B and Widerface but show remarkable results on datasets like Cityscape and SIM10k</description>
+ Analyzed how local features, distribution gap metrics and usage of trackers to obtain temporal coherence of target domain videos can be leveraged to eliminate the vulnerabilities of the existing unsupervised adaptation approaches that under-perform on face-detection datasets like SCUT and Widerface.</description>
     </item>
     
     <item>
-      <title>Highlights Generation and Player Analysis for Broadcast Cricket Videos</title>
+      <title>Highlights Generation for Broadcast Cricket Videos</title>
       <link>http://benedictflorance.github.io/project/cricket/</link>
       <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/cricket/</guid>
-      <description> Employed video frame segmentation and replay detection on a newly constructed dataset of IPL cricket videos. Working on a video classification network for events like boundaries, sixes, wickets and milestones
+      <description> Employed video frame segmentation, replay and scoreboarddetection on a newly constructed dataset of IPL cricket videos.
  Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain
  Dataset Link: Click Here
   </description>
