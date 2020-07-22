@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance Arockiaraj</copyright>
-    <lastBuildDate>Tue, 10 Jul 2018 01:17:17 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 00:58:38 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.github.io/tags/nitt/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ensemble-based Endoscopy Artefact Detection</title>
+      <link>http://benedictflorance.github.io/project/endoscopy/</link>
+      <pubDate>Sat, 07 Dec 2019 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/endoscopy/</guid>
+      <description>Proposed an ensemble of RetinaNet-based object detectors to localize bounding boxes and predict labels of eight different artefact classes that generalizes to an inter-patient, multi-tissue and a multi-modal corpus of endoscopy video frame data
+ The common artefacts of interest that corrupt endoscopy video frames include contrast, saturation, instrument, blood, specularity, blur, imaging artefacts and bubbles.
+ Achieved an mAP of 0.3405 improving existing state-of-the-art results
+ Thesis Link: Click Here</description>
+    </item>
     
     <item>
       <title>M-Decoder</title>
