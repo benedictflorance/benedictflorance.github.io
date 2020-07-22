@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance Arockiaraj</copyright>
-    <lastBuildDate>Fri, 06 Dec 2019 00:58:38 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 00:58:38 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.github.io/tags/internship/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unsupervised 3D Human Pose Estimation</title>
+      <link>http://benedictflorance.github.io/project/humanpose/</link>
+      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/humanpose/</guid>
+      <description> Working on a kinematic-structure-preserved unsupervised 3D pose estimation framework that uses differentiable transformations to effectively disentangle pose, foreground and background appearance information on Human3.6M, MPI-INF-3DHP, LSP, Youtube and 3DPW datasets  </description>
+    </item>
     
     <item>
       <title>Unsupervised Deep Domain Adaption for Object Detection</title>
