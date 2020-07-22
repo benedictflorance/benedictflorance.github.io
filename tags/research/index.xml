@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018  · Benedict Florance Arockiaraj</copyright>
-    <lastBuildDate>Sat, 07 Dec 2019 00:58:38 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 00:58:38 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unsupervised 3D Human Pose Estimation</title>
+      <link>http://benedictflorance.github.io/project/humanpose/</link>
+      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/humanpose/</guid>
+      <description> Working on a kinematic-structure-preserved unsupervised 3D pose estimation framework that uses differentiable transformations to effectively disentangle pose, foreground and background appearance information on Human3.6M, MPI-INF-3DHP, LSP, Youtube and 3DPW datasets  </description>
+    </item>
     
     <item>
       <title>Ensemble-based Endoscopy Artefact Detection</title>
@@ -18,19 +27,10 @@
       <pubDate>Sat, 07 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/endoscopy/</guid>
-      <description>Proposed an ensemble of RetinaNet-based object detectors to localize bounding boxes and predict labels of eight different artefact classes that generalizes to an inter-patient, multi-tissue and a multi-modal corpus ofendoscopy video frame data.
+      <description>Proposed an ensemble of RetinaNet-based object detectors to localize bounding boxes and predict labels of eight different artefact classes that generalizes to an inter-patient, multi-tissue and a multi-modal corpus of endoscopy video frame data
  The common artefacts of interest that corrupt endoscopy video frames include contrast, saturation, instrument, blood, specularity, blur, imaging artefacts and bubbles.
- Achieved an mAP of 0.3405 improving existing state-of-the-art results.
+ Achieved an mAP of 0.3405 improving existing state-of-the-art results
  Thesis Link: Click Here</description>
-    </item>
-    
-    <item>
-      <title>Unsupervised 3D Human Pose Estimation</title>
-      <link>http://benedictflorance.github.io/project/humanpose/</link>
-      <pubDate>Sat, 07 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/humanpose/</guid>
-      <description> Working on a kinematic-structure-preserved unsupervised 3D pose estimation framework that uses differen-tiable transformations to effectively disentangle pose, foreground and background appearance information on Human3.6M, MPI-INF-3DHP, LSP, Youtube and 3DPW datasets  </description>
     </item>
     
     <item>
@@ -39,8 +39,8 @@
       <pubDate>Fri, 06 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/domain-adaptation/</guid>
-      <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada.
- Analyzed how local features, distribution gap metrics and usage of trackers to obtain temporal coherence of target domain videos can be leveraged to eliminate the vulnerabilities of the existing unsupervised adaptation approaches that under-perform on face-detection datasets like SCUT and Widerface.</description>
+      <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada
+ Analyzed how local features, distribution gap metrics and usage of trackers to obtain temporal coherence of target domain videos can be leveraged to eliminate the vulnerabilities of the existing unsupervised adaptation approaches that under-perform on face-detection datasets like SCUT and Widerface</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/cricket/</guid>
-      <description> Employed video frame segmentation, replay and scoreboarddetection on a newly constructed dataset of IPL cricket videos.
+      <description> Employed video frame segmentation, replay and scoreboard detection on a newly constructed dataset of IPL cricket videos.
  Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain
  Dataset Link: Click Here
   </description>
@@ -71,8 +71,8 @@
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
-      <description>* Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model.
- Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed.
+      <description>Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model
+ Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed
  This project received a Special Mention at the Pragyan Hackathon conducted at SAP Labs, Bangalore.</description>
     </item>
     

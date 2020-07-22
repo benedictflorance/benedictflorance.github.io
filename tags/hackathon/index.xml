@@ -18,8 +18,8 @@
       <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
-      <description>* Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model.
- Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed.
+      <description>Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model
+ Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed
  This project received a Special Mention at the Pragyan Hackathon conducted at SAP Labs, Bangalore.</description>
     </item>
     

@@ -18,8 +18,8 @@
       <pubDate>Fri, 06 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/domain-adaptation/</guid>
-      <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada.
- Analyzed how local features, distribution gap metrics and usage of trackers to obtain temporal coherence of target domain videos can be leveraged to eliminate the vulnerabilities of the existing unsupervised adaptation approaches that under-perform on face-detection datasets like SCUT and Widerface.</description>
+      <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada
+ Analyzed how local features, distribution gap metrics and usage of trackers to obtain temporal coherence of target domain videos can be leveraged to eliminate the vulnerabilities of the existing unsupervised adaptation approaches that under-perform on face-detection datasets like SCUT and Widerface</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/cricket/</guid>
-      <description> Employed video frame segmentation, replay and scoreboarddetection on a newly constructed dataset of IPL cricket videos.
+      <description> Employed video frame segmentation, replay and scoreboard detection on a newly constructed dataset of IPL cricket videos.
  Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain
  Dataset Link: Click Here
   </description>
@@ -50,8 +50,8 @@
       <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/icf-chennai/</guid>
-      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative.
- Wrote API’s in Laravel framework to handle authorization across Web and Android clients.
+      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative
+ Wrote API’s in Laravel framework to handle authorization across Web and Android clients
  The code was reviewed and pushed to production.
  The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.</description>
     </item>

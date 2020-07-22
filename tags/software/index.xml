@@ -18,9 +18,9 @@
       <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
-      <description>Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths.
- Built the web application using Angular library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment.
- Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation.
+      <description>Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths
+ Built the web application using Angular library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment
+ Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation
  The contest was held as a part of Pragyan, the technical festival of NIT Trichy and it witnessed over 1000+ contestants and 15,000+ submissions.</description>
     </item>
     
@@ -30,8 +30,8 @@
       <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
       
       <guid>http://benedictflorance.github.io/project/icf-chennai/</guid>
-      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative.
- Wrote API’s in Laravel framework to handle authorization across Web and Android clients.
+      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative
+ Wrote API’s in Laravel framework to handle authorization across Web and Android clients
  The code was reviewed and pushed to production.
  The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.</description>
     </item>
