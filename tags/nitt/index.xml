@@ -6,7 +6,7 @@
     <description>Recent content in Nitt on Benedict Florance Arockiaraj</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018  · Benedict Florance Arockiaraj</copyright>
+    <copyright>&amp;copy; 2020  · Benedict Florance Arockiaraj</copyright>
     <lastBuildDate>Sat, 07 Dec 2019 00:58:38 +0530</lastBuildDate>
     
 	<atom:link href="http://benedictflorance.github.io/tags/nitt/index.xml" rel="self" type="application/rss+xml" />
@@ -22,6 +22,18 @@
  The common artefacts of interest that corrupt endoscopy video frames include contrast, saturation, instrument, blood, specularity, blur, imaging artefacts and bubbles.
  Achieved an mAP of 0.3405 improving existing state-of-the-art results
  Thesis Link: Click Here</description>
+    </item>
+    
+    <item>
+      <title>Highlights Generation for Broadcast Cricket Videos</title>
+      <link>http://benedictflorance.github.io/project/cricket/</link>
+      <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
+      
+      <guid>http://benedictflorance.github.io/project/cricket/</guid>
+      <description> Employed video frame segmentation, replay and scoreboard detection on a newly constructed dataset of IPL cricket videos.
+ Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain
+ Dataset Link: Click Here
+  </description>
     </item>
     
     <item>
