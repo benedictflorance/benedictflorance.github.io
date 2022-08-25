@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Benedict Florance Arockiaraj</title>
-    <link>http://benedictflorance.github.io/post/</link>
-    <description>Recent content in Posts on Benedict Florance Arockiaraj</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2020  · Benedict Florance Arockiaraj</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="http://benedictflorance.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Breaking down Neural Networks: An intuitive approach to backprop!</title>
-      <link>http://benedictflorance.github.io/post/backpropagation/</link>
-      <pubDate>Sat, 16 Jun 2018 23:22:47 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/post/backpropagation/</guid>
-      <description>Whether you’re a beginner in machine learning or an expert, you would have had a hard time understanding the concept of backpropagation in neural networks. If you’re a beginner, the first look of the complex steps strung together in the backprop algorithm would’ve been definitely daunting. While a few of us would have spent time in analysing the algorithm and getting the intuition, most of us would have abstracted the learning process.</description>
-    </item>
+    <title>Posts | Benedict Florance Arockiaraj</title>
+    <link>https://benedictflorance.github.io/post/</link>
+      <atom:link href="https://benedictflorance.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://benedictflorance.github.io/post/</link>
+    </image>
     
   </channel>
 </rss>

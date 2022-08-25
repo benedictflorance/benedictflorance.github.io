@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Benedict Florance Arockiaraj</title>
+    <link>https://benedictflorance.github.io/tag/computer-vision/</link>
+      <atom:link href="https://benedictflorance.github.io/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
+      <title>Computer Vision</title>
+      <link>https://benedictflorance.github.io/tag/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Counting Machine Washer Parts</title>
+      <link>https://benedictflorance.github.io/project/counting_parts/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/counting_parts/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Extended density-map estimation based FamNet to count highly-occluded machine parts with a novel mismatch loss
+component, achieving a performance of 1.96 MAE (90% decrease from image processing baseline) on the challenge dataset.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Intelligence Analytics for FMCG Brands</title>
+      <link>https://benedictflorance.github.io/project/infilect/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/infilect/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Built deep-learning pipelines using object detection, segmentation, fine-grained classification and self-supervised learning
+for retailers like Kimberly Clark, P&amp;amp;G, Lowe’s, Coke and ABInBev to provide real-time competitive intelligence and on-shelf
+execution insights.&lt;/li&gt;
+&lt;li&gt;Achieved &amp;gt;97% accuracy in detecting the smallest of SKUs and lifted per-store sales by 5%.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unsupervised 3D Human Pose Estimation</title>
+      <link>https://benedictflorance.github.io/project/iisc/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/iisc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wrote data-loaders and modeled the architecture for kinematic-structure preserving, unsupervised 3D pose estimation
+framework to effectively disentangle pose, foreground and background appearance information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reduced MPJPE by as high
+as 40% (semi-supervised) and 15% (unsupervised) on datasets like Human3.6M, 3DHP, LSP and 3DPW.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advisors&lt;/strong&gt;: &lt;a href=&#34;http://cds.iisc.ac.in/faculty/venky/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Venkatesh Babu&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/jogendra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jogendra Nath Kundu&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ensemble-based Endoscopy Artefact Detection</title>
+      <link>https://benedictflorance.github.io/project/nitt/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/nitt/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Proposed an ensemble of RetinaNet-based object detectors to localize bounding boxes and predict labels of eight different artefact classes that generalizes to an inter-patient, multi-tissue and a multi-modal corpus of endoscopy video frame data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The common artefacts of interest that corrupt endoscopy video frames include contrast, saturation, instrument, blood, specularity, blur, imaging artefacts and bubbles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Achieved an mAP of 0.3405 improving existing state-of-the-art results&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: &lt;a href=&#34;https://www.nitt.edu/home/academics/departments/cse/faculty/leela/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leela Velusamy&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Deep Domain Adaption for Object Detection</title>
+      <link>https://benedictflorance.github.io/project/uquebec/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/uquebec/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Analyzed negative transfer (around 20% drop in mAP from baseline) and catastrophic forgetting of the existing imageto-image domain adaptation approaches on face-detection datasets.&lt;/li&gt;
+&lt;li&gt;Studied the use of local features, and temporal
+information from trackers to generalize unsupervised domain adaptation approaches on datasets like SCUT and Widerface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advisor:&lt;/strong&gt; &lt;a href=&#34;https://www.etsmtl.ca/en/research/professors/egranger&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eric Granger&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Highlights Generation for Broadcast Cricket Videos</title>
+      <link>https://benedictflorance.github.io/project/cricket/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/cricket/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Employed video frame segmentation, replay and scoreboard detection on a newly constructed dataset of IPL cricket videos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Indian Flora Project</title>
+      <link>https://benedictflorance.github.io/project/iiith/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/iiith/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.08 and 96.90&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deployed auto-segmenter, auto-recommender systems and a collaborative web-portal using Angular and NodeJS and an Android app where users can add new observations and query for species identification.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: &lt;a href=&#34;https://faculty.iiit.ac.in/~jawahar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C. V. Jawahar&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

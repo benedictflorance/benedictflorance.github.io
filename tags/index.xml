@@ -1,133 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Benedict Florance Arockiaraj</title>
-    <link>http://benedictflorance.github.io/tags/</link>
-    <description>Recent content in Tags on Benedict Florance Arockiaraj</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2020  · Benedict Florance Arockiaraj</copyright>
-    <lastBuildDate>Sun, 08 Dec 2019 00:58:38 +0530</lastBuildDate>
-    
-	<atom:link href="http://benedictflorance.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ai</title>
-      <link>http://benedictflorance.github.io/tags/ai/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Android-app</title>
-      <link>http://benedictflorance.github.io/tags/android-app/</link>
-      <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/android-app/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer-vision</title>
-      <link>http://benedictflorance.github.io/tags/computer-vision/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep-learning</title>
-      <link>http://benedictflorance.github.io/tags/deep-learning/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hackathon</title>
-      <link>http://benedictflorance.github.io/tags/hackathon/</link>
-      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internship</title>
-      <link>http://benedictflorance.github.io/tags/internship/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/internship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine-learning</title>
-      <link>http://benedictflorance.github.io/tags/machine-learning/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nitt</title>
-      <link>http://benedictflorance.github.io/tags/nitt/</link>
-      <pubDate>Sat, 07 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/nitt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pragyan</title>
-      <link>http://benedictflorance.github.io/tags/pragyan/</link>
-      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/pragyan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>http://benedictflorance.github.io/tags/research/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>http://benedictflorance.github.io/tags/software/</link>
-      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spider</title>
-      <link>http://benedictflorance.github.io/tags/spider/</link>
-      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/spider/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website</title>
-      <link>http://benedictflorance.github.io/tags/website/</link>
-      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/tags/website/</guid>
-      <description></description>
-    </item>
+    <title>Tags | Benedict Florance Arockiaraj</title>
+    <link>https://benedictflorance.github.io/tags/</link>
+      <atom:link href="https://benedictflorance.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
+      <title>Tags</title>
+      <link>https://benedictflorance.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>

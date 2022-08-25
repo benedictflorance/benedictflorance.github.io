@@ -1,103 +1,238 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Benedict Florance Arockiaraj</title>
-    <link>http://benedictflorance.github.io/project/</link>
-    <description>Recent content in Projects on Benedict Florance Arockiaraj</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2020  · Benedict Florance Arockiaraj</copyright>
-    <lastBuildDate>Sun, 08 Dec 2019 00:58:38 +0530</lastBuildDate>
+    <title>Projects | Benedict Florance Arockiaraj</title>
+    <link>https://benedictflorance.github.io/project/</link>
+      <atom:link href="https://benedictflorance.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://benedictflorance.github.io/project/</link>
+    </image>
     
-	<atom:link href="http://benedictflorance.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trajectory Prediction for Cruise Autonomous Cars</title>
+      <link>https://benedictflorance.github.io/project/trajectory_prediction/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/trajectory_prediction/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Developed data, pre-processing and modeling pipeline for Transformers, GNNs-based trajectory prediction architecture that acts on vectorized map and agent information.&lt;/li&gt;
+&lt;li&gt;Improved prediction quality through lossless and long-range feature
+representation, reduced prediction latency by 20%, and improved training and validation speeds by 33%.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
+    <item>
+      <title>Unsupervised Reinforcement Learning via World Models</title>
+      <link>https://benedictflorance.github.io/project/model_rl/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/model_rl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Designing a model-based reinforcement-learning approach via world models using a novel combination of intrinsic and sparse extrinsic reward for robotic manipulation tasks in MetaWorld and adapting to new tasks exploiting prior experience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advisors:&lt;/strong&gt; &lt;a href=&#34;https://www.cis.upenn.edu/~kostas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kostas Daniilidis&lt;/a&gt; and &lt;a href=&#34;https://www.seas.upenn.edu/~oleh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oleg Rybkin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning for Car-Racing Environments</title>
+      <link>https://benedictflorance.github.io/project/transfer_rl/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/transfer_rl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Used transfer learning to achieve the fast lap times in OpenAI’s Car racing environment by training the agent on one circuit, and racing it on other
+customized target environments by zero-shot transfer or by additional fine-tuning.&lt;/li&gt;
+&lt;li&gt;Compared the performance of
+model-based and model-free approaches, and observed that model-based approaches dominate in performance and converge
+faster than model-free approaches in this environment.&lt;/li&gt;
+&lt;li&gt;Observed that transfer learning in most setups not only boosts the
+performance on the target domain, but also shows high performance ability during learning.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Counting Machine Washer Parts</title>
+      <link>https://benedictflorance.github.io/project/counting_parts/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/counting_parts/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Extended density-map estimation based FamNet to count highly-occluded machine parts with a novel mismatch loss
+component, achieving a performance of 1.96 MAE (90% decrease from image processing baseline) on the challenge dataset.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sensible Universal Adversarial Triggers</title>
+      <link>https://benedictflorance.github.io/project/adversarial_triggers/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/adversarial_triggers/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Proposed a novel technique combining parts-of-speech filtering and perplexity based loss
+function to generate sensible triggers that are
+closer to natural phrases.&lt;/li&gt;
+&lt;li&gt;For the task of sentiment analysis on the SST dataset, the method
+produced sensible triggers that achieve accura-
+cies as low as 4% and 12% for flipping positive to negative predictions and vice-versa.&lt;/li&gt;
+&lt;li&gt;To
+build robust models, performed adversarial training using the generated triggers that increases the accuracy of the model from 12% to
+48%.&lt;/li&gt;
+&lt;li&gt;Illustrated that adversarial at-
+tacks can be made difficult to detect by generating sensible triggers, and to facilitate robust
+model development through relevant defenses.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Intelligence Analytics for FMCG Brands</title>
+      <link>https://benedictflorance.github.io/project/infilect/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/infilect/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Built deep-learning pipelines using object detection, segmentation, fine-grained classification and self-supervised learning
+for retailers like Kimberly Clark, P&amp;amp;G, Lowe’s, Coke and ABInBev to provide real-time competitive intelligence and on-shelf
+execution insights.&lt;/li&gt;
+&lt;li&gt;Achieved &amp;gt;97% accuracy in detecting the smallest of SKUs and lifted per-store sales by 5%.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Unsupervised 3D Human Pose Estimation</title>
-      <link>http://benedictflorance.github.io/project/humanpose/</link>
-      <pubDate>Sun, 08 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/humanpose/</guid>
-      <description> Working on a kinematic-structure-preserved unsupervised 3D pose estimation framework that uses differentiable transformations to effectively disentangle pose, foreground and background appearance information on Human3.6M, MPI-INF-3DHP, LSP, Youtube and 3DPW datasets  </description>
+      <link>https://benedictflorance.github.io/project/iisc/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/iisc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wrote data-loaders and modeled the architecture for kinematic-structure preserving, unsupervised 3D pose estimation
+framework to effectively disentangle pose, foreground and background appearance information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reduced MPJPE by as high
+as 40% (semi-supervised) and 15% (unsupervised) on datasets like Human3.6M, 3DHP, LSP and 3DPW.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advisors&lt;/strong&gt;: &lt;a href=&#34;http://cds.iisc.ac.in/faculty/venky/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Venkatesh Babu&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/jogendra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jogendra Nath Kundu&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Ensemble-based Endoscopy Artefact Detection</title>
-      <link>http://benedictflorance.github.io/project/endoscopy/</link>
-      <pubDate>Sat, 07 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/endoscopy/</guid>
-      <description>Proposed an ensemble of RetinaNet-based object detectors to localize bounding boxes and predict labels of eight different artefact classes that generalizes to an inter-patient, multi-tissue and a multi-modal corpus of endoscopy video frame data
- The common artefacts of interest that corrupt endoscopy video frames include contrast, saturation, instrument, blood, specularity, blur, imaging artefacts and bubbles.
- Achieved an mAP of 0.3405 improving existing state-of-the-art results
- Thesis Link: Click Here</description>
+      <link>https://benedictflorance.github.io/project/nitt/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/nitt/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Proposed an ensemble of RetinaNet-based object detectors to localize bounding boxes and predict labels of eight different artefact classes that generalizes to an inter-patient, multi-tissue and a multi-modal corpus of endoscopy video frame data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The common artefacts of interest that corrupt endoscopy video frames include contrast, saturation, instrument, blood, specularity, blur, imaging artefacts and bubbles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Achieved an mAP of 0.3405 improving existing state-of-the-art results&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: &lt;a href=&#34;https://www.nitt.edu/home/academics/departments/cse/faculty/leela/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leela Velusamy&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Unsupervised Deep Domain Adaption for Object Detection</title>
-      <link>http://benedictflorance.github.io/project/domain-adaptation/</link>
-      <pubDate>Fri, 06 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/domain-adaptation/</guid>
-      <description>Recipient of the Mitacs Globalink Research Internship to work on &amp;ldquo;Unsupervised Deep Domain Adaptation for Object Detection&amp;rdquo; under the mentorship of Prof. Eric Granger at Le Laboratoire d’imagerie, de vision et d’intelligence artificielle (LIVIA), ETS Montreal, Canada
- Analyzed how local features, distribution gap metrics and usage of trackers to obtain temporal coherence of target domain videos can be leveraged to eliminate the vulnerabilities of the existing unsupervised adaptation approaches that under-perform on face-detection datasets like SCUT and Widerface</description>
+      <link>https://benedictflorance.github.io/project/uquebec/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/uquebec/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Analyzed negative transfer (around 20% drop in mAP from baseline) and catastrophic forgetting of the existing imageto-image domain adaptation approaches on face-detection datasets.&lt;/li&gt;
+&lt;li&gt;Studied the use of local features, and temporal
+information from trackers to generalize unsupervised domain adaptation approaches on datasets like SCUT and Widerface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advisor:&lt;/strong&gt; &lt;a href=&#34;https://www.etsmtl.ca/en/research/professors/egranger&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eric Granger&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Highlights Generation for Broadcast Cricket Videos</title>
-      <link>http://benedictflorance.github.io/project/cricket/</link>
-      <pubDate>Thu, 05 Dec 2019 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/cricket/</guid>
-      <description> Employed video frame segmentation, replay and scoreboard detection on a newly constructed dataset of IPL cricket videos.
- Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain
- Dataset Link: Click Here
-  </description>
+      <link>https://benedictflorance.github.io/project/cricket/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/cricket/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Employed video frame segmentation, replay and scoreboard detection on a newly constructed dataset of IPL cricket videos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Indian Flora Project</title>
-      <link>http://benedictflorance.github.io/project/indianflora/</link>
-      <pubDate>Tue, 10 Jul 2018 01:27:06 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/indianflora/</guid>
-      <description>Awarded the prestigious Indian Academy of Sciences’ Summer Research Fellowship (SRFP) to work on &amp;ldquo;Indian Flora Project&amp;rdquo;, a plant species identification and disease detection system under the supervision of Prof. Dr. C. V. Jawahar at Centre for Visual Information Technology (CVIT), IIIT - Hyderabad.
- Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.</description>
+      <link>https://benedictflorance.github.io/project/iiith/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/iiith/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.08 and 96.90&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deployed auto-segmenter, auto-recommender systems and a collaborative web-portal using Angular and NodeJS and an Android app where users can add new observations and query for species identification.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: &lt;a href=&#34;https://faculty.iiit.ac.in/~jawahar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C. V. Jawahar&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>M-Decoder</title>
-      <link>http://benedictflorance.github.io/project/mdecoder/</link>
-      <pubDate>Tue, 10 Jul 2018 01:17:17 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/mdecoder/</guid>
-      <description>Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths
- Built the web application using Angular library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment
- Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation
- The contest was held as a part of Pragyan, the technical festival of NIT Trichy and it witnessed over 1000+ contestants and 15,000+ submissions.</description>
+      <title>M-Decoder (Online Math Challenge)</title>
+      <link>https://benedictflorance.github.io/project/mdecoder/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/mdecoder/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Developed the three-day online mathematical challenge MDecoder, where contestants answer mathematical questions of different difficulty levels from various disciplines of mathematics like algebra, geometry to applied maths&lt;/li&gt;
+&lt;li&gt;Built the web application using Angular library for the user interface, PHP framework Laravel for the backend service and hosted in Docker-based environment&lt;/li&gt;
+&lt;li&gt;Implemented efficient, foolproof algorithms for authentication, time-based scoring, question generation and submission validation&lt;/li&gt;
+&lt;li&gt;The contest was held as a part of &lt;a href=&#34;https://pragyan.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pragyan&lt;/a&gt;, the technical festival of NIT Trichy and it witnessed over 1000+ contestants and 15,000+ submissions.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>Indian Railways EMU Production Application</title>
-      <link>http://benedictflorance.github.io/project/icf-chennai/</link>
-      <pubDate>Tue, 10 Jul 2018 01:04:55 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/icf-chennai/</guid>
-      <description>Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative
- Wrote API’s in Laravel framework to handle authorization across Web and Android clients
- The code was reviewed and pushed to production.
- The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.</description>
+      <title>Indian Railways EMU Production App</title>
+      <link>https://benedictflorance.github.io/project/icf/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/icf/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Developed the backend service for digitizing the records of inventory management, production planning and status updates of the coaches and rakes under the Digital India initiative&lt;/li&gt;
+&lt;li&gt;Wrote API’s in Laravel framework to handle authorization across Web and Android clients&lt;/li&gt;
+&lt;li&gt;The code was reviewed and pushed to production.&lt;/li&gt;
+&lt;li&gt;The Android application has been released on Google Play Store and is used by more than 500 employees of ICF, Chennai for internal purposes.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>Smart Healthcare System</title>
-      <link>http://benedictflorance.github.io/project/smart-healthcare/</link>
-      <pubDate>Tue, 10 Jul 2018 00:58:38 +0530</pubDate>
-      
-      <guid>http://benedictflorance.github.io/project/smart-healthcare/</guid>
-      <description>Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model
- Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed
- This project received a Special Mention at the Pragyan Hackathon conducted at SAP Labs, Bangalore.</description>
+      <title>Smart Health Care System</title>
+      <link>https://benedictflorance.github.io/project/healthcare/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/healthcare/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented deep learning models to predict disease risks based on user symptoms and lifestyle inputs as a collaborative pipeline between doctors and patients. Used web-scraped data for training the model&lt;/li&gt;
+&lt;li&gt;Built a recommendation system for analyzing the abnormal parameters and recommending future course of action like medicines and wrote APIs in Laravel for the Android application where the features were deployed&lt;/li&gt;
+&lt;li&gt;This project received a Special Mention at the Pragyan Hackathon conducted at SAP Labs, Bangalore.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

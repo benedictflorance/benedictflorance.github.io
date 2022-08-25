@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP | Benedict Florance Arockiaraj</title>
+    <link>https://benedictflorance.github.io/tag/nlp/</link>
+      <atom:link href="https://benedictflorance.github.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
+      <title>NLP</title>
+      <link>https://benedictflorance.github.io/tag/nlp/</link>
+    </image>
+    
+    <item>
+      <title>Sensible Universal Adversarial Triggers</title>
+      <link>https://benedictflorance.github.io/project/adversarial_triggers/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/adversarial_triggers/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Proposed a novel technique combining parts-of-speech filtering and perplexity based loss
+function to generate sensible triggers that are
+closer to natural phrases.&lt;/li&gt;
+&lt;li&gt;For the task of sentiment analysis on the SST dataset, the method
+produced sensible triggers that achieve accura-
+cies as low as 4% and 12% for flipping positive to negative predictions and vice-versa.&lt;/li&gt;
+&lt;li&gt;To
+build robust models, performed adversarial training using the generated triggers that increases the accuracy of the model from 12% to
+48%.&lt;/li&gt;
+&lt;li&gt;Illustrated that adversarial at-
+tacks can be made difficult to detect by generating sensible triggers, and to facilitate robust
+model development through relevant defenses.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
