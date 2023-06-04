@@ -33,14 +33,37 @@
     </item>
     
     <item>
+      <title>Holi Search Engine</title>
+      <link>https://benedictflorance.github.io/project/holi/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/holi/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Search Engine was built using four key components: crawler, indexer and data processor, ranker and frontend.&lt;/li&gt;
+&lt;li&gt;A corpus of 500k URLs were crawled and efficiently indexed. Sound ranking algorithms were used to rank results with a minimalistic UI to demonstrate the search engine.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mini Minecraft</title>
       <link>https://benedictflorance.github.io/project/computer_graphics/</link>
-      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://benedictflorance.github.io/project/computer_graphics/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Developed data, pre-processing and modeling pipeline for Transformers, GNNs-based trajectory prediction architecture that acts on vectorized map and agent information.&lt;/li&gt;
-&lt;li&gt;Improved prediction quality through lossless and long-range feature
-representation, reduced prediction latency by 20%, and improved training and validation speeds by 33%.&lt;/li&gt;
+&lt;li&gt;Developed a mini-minecraft with various features including procedural generation of terrain, efficient storing and rendering of blocks, player physics, multi-threaded terrain loading, texturing and animation, procedurally-generated caves, day and night cycles, distance fog, dynamic clouds, inventory, water waves, sounds, L-system rivers and NPC AI.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PennCloud</title>
+      <link>https://benedictflorance.github.io/project/penn_cloud/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/project/penn_cloud/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Presented an excellent fault-tolerant PennCloud platform that supports a complete set of services with an intuitive user interface, including e.g., a webmail service for both local and remote users, a storage service for uploading and downloading of large files in any format, and an admin console for viewing and easy controlling of frontend and backend nodes&amp;rsquo; status and data.&lt;/li&gt;
+&lt;li&gt;Foundational to these services, the platform also features a solid, scalable system design with strong consistency, efficient fault detection and recovery, fast performance and great usability.&lt;/li&gt;
+&lt;li&gt;This project was included in the &lt;a href=&#34;https://www.cis.upenn.edu/~cis5050/hall_of_fame.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hall of Fame&lt;/a&gt; for being well-done in every aspect.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
