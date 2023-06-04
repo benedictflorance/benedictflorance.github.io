@@ -5,12 +5,27 @@
     <link>https://benedictflorance.github.io/tag/deep-learning/</link>
       <atom:link href="https://benedictflorance.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
       <link>https://benedictflorance.github.io/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Linguistic Properties of Truthful Responses</title>
+      <link>https://benedictflorance.github.io/research/acl/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://benedictflorance.github.io/research/acl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;We investigate the phenomenon of an LLM&amp;rsquo;s untruthful response using a large set of 220 handcrafted linguistic features. We focus on GPT-3 models and find that the linguistic profiles of responses are similar across model sizes.&lt;/li&gt;
+&lt;li&gt;That is, how varying-sized LLMs respond to given prompts stays similar on the linguistic properties level.&lt;/li&gt;
+&lt;li&gt;We expand upon this finding by training support vector machines that rely only upon the stylistic components of model responses to classify the truthfulness of statements.&lt;/li&gt;
+&lt;li&gt;Though the dataset size limits our current findings, we present promising evidence that truthfulness detection is possible without evaluating the content itself.&lt;/li&gt;
+&lt;li&gt;This paper was accepted at TrustNLP @ ACL 2023&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Unsupervised Reinforcement Learning via World Models</title>
