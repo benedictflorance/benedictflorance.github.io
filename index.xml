@@ -391,25 +391,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Indian Flora Project</title>
-      <link>https://benedictflorance.github.io/research/iiith/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/research/iiith/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.08 and 96.90&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Deployed auto-segmenter, auto-recommender systems and a collaborative web-portal using Angular and NodeJS and an Android app where users can add new observations and query for species identification.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: &lt;a href=&#34;https://faculty.iiit.ac.in/~jawahar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C. V. Jawahar&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>M-Decoder (Online Math Challenge)</title>
       <link>https://benedictflorance.github.io/project/mdecoder/</link>
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
