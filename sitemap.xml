@@ -10,37 +10,45 @@
   <url>
     <loc>https://benedictflorance.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/tag/deep-learning/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/project/computer_graphics/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/tag/non-ml/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/tags/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/tag/trajectory-prediction/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/workex/trajectory_prediction/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/trajectory_prediction/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/workex/</loc><lastmod>2022-08-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/tag/deep-learning/</loc><lastmod>2022-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/research/</loc><lastmod>2022-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/tag/rl/</loc><lastmod>2022-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/model_rl/</loc><lastmod>2022-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/research/model_rl/</loc><lastmod>2022-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/tag/ml/</loc><lastmod>2022-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/transfer_rl/</loc><lastmod>2022-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://benedictflorance.github.io/tag/computer-vision/</loc><lastmod>2021-12-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/counting_parts/</loc><lastmod>2021-12-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/tag/nlp/</loc><lastmod>2021-12-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/adversarial_triggers/</loc><lastmod>2021-12-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/research/adversarial_triggers/</loc><lastmod>2021-12-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/infilect/</loc><lastmod>2021-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/workex/infilect/</loc><lastmod>2021-07-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/iisc/</loc><lastmod>2020-08-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/tag/computer-vision/</loc><lastmod>2020-08-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/research/iisc/</loc><lastmod>2020-08-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/nitt/</loc><lastmod>2020-05-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/uquebec/</loc><lastmod>2019-08-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/research/uquebec/</loc><lastmod>2019-08-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/cricket/</loc><lastmod>2019-05-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -48,11 +56,13 @@
   <url>
     <loc>https://benedictflorance.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/project/iiith/</loc><lastmod>2018-07-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://benedictflorance.github.io/research/iiith/</loc><lastmod>2018-07-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/tag/web-dev/</loc><lastmod>2018-07-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/mdecoder/</loc><lastmod>2018-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/tag/software/</loc><lastmod>2018-05-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/project/icf/</loc><lastmod>2018-01-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>

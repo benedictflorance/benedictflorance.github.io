@@ -14,9 +14,9 @@
     
     <item>
       <title>Sensible Universal Adversarial Triggers</title>
-      <link>https://benedictflorance.github.io/project/adversarial_triggers/</link>
+      <link>https://benedictflorance.github.io/research/adversarial_triggers/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/adversarial_triggers/</guid>
+      <guid>https://benedictflorance.github.io/research/adversarial_triggers/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Proposed a novel technique combining parts-of-speech filtering and perplexity based loss
 function to generate sensible triggers that are

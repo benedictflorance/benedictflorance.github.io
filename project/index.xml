@@ -13,26 +13,14 @@
     </image>
     
     <item>
-      <title>Trajectory Prediction for Cruise Autonomous Cars</title>
-      <link>https://benedictflorance.github.io/project/trajectory_prediction/</link>
+      <title>Mini Minecraft</title>
+      <link>https://benedictflorance.github.io/project/computer_graphics/</link>
       <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/trajectory_prediction/</guid>
+      <guid>https://benedictflorance.github.io/project/computer_graphics/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Developed data, pre-processing and modeling pipeline for Transformers, GNNs-based trajectory prediction architecture that acts on vectorized map and agent information.&lt;/li&gt;
 &lt;li&gt;Improved prediction quality through lossless and long-range feature
 representation, reduced prediction latency by 20%, and improved training and validation speeds by 33%.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unsupervised Reinforcement Learning via World Models</title>
-      <link>https://benedictflorance.github.io/project/model_rl/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/model_rl/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Designing a model-based reinforcement-learning approach via world models using a novel combination of intrinsic and sparse extrinsic reward for robotic manipulation tasks in MetaWorld and adapting to new tasks exploiting prior experience.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Advisors:&lt;/strong&gt; &lt;a href=&#34;https://www.cis.upenn.edu/~kostas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kostas Daniilidis&lt;/a&gt; and &lt;a href=&#34;https://www.seas.upenn.edu/~oleh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oleg Rybkin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -67,63 +55,6 @@ component, achieving a performance of 1.96 MAE (90% decrease from image processi
     </item>
     
     <item>
-      <title>Sensible Universal Adversarial Triggers</title>
-      <link>https://benedictflorance.github.io/project/adversarial_triggers/</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/adversarial_triggers/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Proposed a novel technique combining parts-of-speech filtering and perplexity based loss
-function to generate sensible triggers that are
-closer to natural phrases.&lt;/li&gt;
-&lt;li&gt;For the task of sentiment analysis on the SST dataset, the method
-produced sensible triggers that achieve accura-
-cies as low as 4% and 12% for flipping positive to negative predictions and vice-versa.&lt;/li&gt;
-&lt;li&gt;To
-build robust models, performed adversarial training using the generated triggers that increases the accuracy of the model from 12% to
-48%.&lt;/li&gt;
-&lt;li&gt;Illustrated that adversarial at-
-tacks can be made difficult to detect by generating sensible triggers, and to facilitate robust
-model development through relevant defenses.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visual Intelligence Analytics for FMCG Brands</title>
-      <link>https://benedictflorance.github.io/project/infilect/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/infilect/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Built deep-learning pipelines using object detection, segmentation, fine-grained classification and self-supervised learning
-for retailers like Kimberly Clark, P&amp;amp;G, Lowe’s, Coke and ABInBev to provide real-time competitive intelligence and on-shelf
-execution insights.&lt;/li&gt;
-&lt;li&gt;Achieved &amp;gt;97% accuracy in detecting the smallest of SKUs and lifted per-store sales by 5%.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unsupervised 3D Human Pose Estimation</title>
-      <link>https://benedictflorance.github.io/project/iisc/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/iisc/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Wrote data-loaders and modeled the architecture for kinematic-structure preserving, unsupervised 3D pose estimation
-framework to effectively disentangle pose, foreground and background appearance information.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Reduced MPJPE by as high
-as 40% (semi-supervised) and 15% (unsupervised) on datasets like Human3.6M, 3DHP, LSP and 3DPW.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advisors&lt;/strong&gt;: &lt;a href=&#34;http://cds.iisc.ac.in/faculty/venky/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Venkatesh Babu&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/jogendra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jogendra Nath Kundu&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Ensemble-based Endoscopy Artefact Detection</title>
       <link>https://benedictflorance.github.io/project/nitt/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
@@ -146,20 +77,6 @@ as 40% (semi-supervised) and 15% (unsupervised) on datasets like Human3.6M, 3DHP
     </item>
     
     <item>
-      <title>Unsupervised Deep Domain Adaption for Object Detection</title>
-      <link>https://benedictflorance.github.io/project/uquebec/</link>
-      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/uquebec/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Analyzed negative transfer (around 20% drop in mAP from baseline) and catastrophic forgetting of the existing imageto-image domain adaptation approaches on face-detection datasets.&lt;/li&gt;
-&lt;li&gt;Studied the use of local features, and temporal
-information from trackers to generalize unsupervised domain adaptation approaches on datasets like SCUT and Widerface.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Advisor:&lt;/strong&gt; &lt;a href=&#34;https://www.etsmtl.ca/en/research/professors/egranger&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eric Granger&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Highlights Generation for Broadcast Cricket Videos</title>
       <link>https://benedictflorance.github.io/project/cricket/</link>
       <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
@@ -170,25 +87,6 @@ information from trackers to generalize unsupervised domain adaptation approache
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Conducted a study on the real-world implementation of sports analytics by interviewing Mr. K.S. Viswanathan, CEO of Chennai Super Kings, the most successful franchise cricket team and other experts from the domain&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Indian Flora Project</title>
-      <link>https://benedictflorance.github.io/project/iiith/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://benedictflorance.github.io/project/iiith/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Performed transfer learning on various CNN models using our new Indic-Leaf dataset of 112 Indian plants for identification and disease detection with results showing Top-1 and Top-5 precision of 90.08 and 96.90&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Deployed auto-segmenter, auto-recommender systems and a collaborative web-portal using Angular and NodeJS and an Android app where users can add new observations and query for species identification.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: &lt;a href=&#34;https://faculty.iiit.ac.in/~jawahar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C. V. Jawahar&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
