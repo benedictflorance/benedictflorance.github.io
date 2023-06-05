@@ -5,7 +5,7 @@
     <link>https://benedictflorance.github.io/project/</link>
       <atom:link href="https://benedictflorance.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://benedictflorance.github.io/media/icon_hu9eeb12546e8517e7f9c186d851ae3ad9_1969_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Holi Search Engine</title>
       <link>https://benedictflorance.github.io/project/holi/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       <guid>https://benedictflorance.github.io/project/holi/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Search Engine was built using four key components: crawler, indexer and data processor, ranker and frontend.&lt;/li&gt;
