@@ -10,6 +10,14 @@
   <url>
     <loc>https://benedictflorance.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://benedictflorance.github.io/publication-type/1/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/publication/conference-paper/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/publication_types/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://benedictflorance.github.io/publication/</loc><lastmod>2023-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://benedictflorance.github.io/tag/deep-learning/</loc><lastmod>2023-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://benedictflorance.github.io/research/acl/</loc><lastmod>2023-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -74,8 +82,4 @@
   <url>
     <loc>https://benedictflorance.github.io/categories/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://benedictflorance.github.io/post/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://benedictflorance.github.io/publication_types/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://benedictflorance.github.io/publication/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://benedictflorance.github.io/post/</loc><changefreq>weekly</changefreq></url></urlset>
